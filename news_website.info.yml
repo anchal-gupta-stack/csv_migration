@@ -1,0 +1,9 @@
+name: 'News Website'
+type: module
+description : 'Migrate authors and articles data from csv file'
+core: 8.x
+package: 'Mogration'
+dependencies:
+-migrate_source_csv:migrate_source_csv
+-migrate_plus:migrate_plus
+-migrate_tools:migrate_tools
